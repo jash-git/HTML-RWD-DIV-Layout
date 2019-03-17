@@ -1,0 +1,42 @@
+﻿/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+*{
+	/*
+	所有元素的基本CSS初始化
+		padding 內距屬性 - padding:上 右 下 左;　padding:上下 左右;　padding:上 左右 下;　padding:四個邊同樣値;
+		margin 屬性用來定義一個區域（例如 DIV 或 span）的外邊界距離 - margin:上 右 下 左;　margin:上下 左右;　margin:上 左右 下;　margin:四個邊同樣値;
+		list-style 項目符號及編號
+		border 邊框
+	*/
+	padding:0px;
+	margin:0 auto;/*所有元建置中顯示*/
+	list-style:none;
+	border:0;	
+}
+
+#wrap {
+	width: 990px;
+	background-color: #686868;
+}
+header {
+	background-color: #E37C7E;
+	height:200px;
+}
+aside {
+	background-color: #87B3D7;
+	height:900px;
+	width:190px;
+	float:left;
+}
+main {
+	background-color: #4D95BD;
+	height:900px;
+	width:800px;
+	float:left;
+}
+footer {
+	background-color: #561718;
+	height:100px;
+	clear:both;
+}
